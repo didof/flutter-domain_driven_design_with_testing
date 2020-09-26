@@ -10,8 +10,10 @@ dependencies:
   dartz: ^0.9.1
   equatable: ^1.2.5
   intl: ^0.16.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  mockito: ^4.1.1
 flutter:
   uses-material-design: true

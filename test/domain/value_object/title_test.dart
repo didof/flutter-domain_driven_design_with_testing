@@ -18,7 +18,7 @@ void main() {
       expect(title, matcher.TypeMatcher<Failure>());
     });
 
-    test('should create title when value is not empty', () {
+    test('should create Title when value is not empty', () {
       // arrange
       const str = 'foo';
       var title = Title.create(str).getOrElse(null);

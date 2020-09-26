@@ -1,4 +1,4 @@
-# DDD
+# Domain Driven Design + testing
 
 ## Test-driven creation of value objects
 *26/09/2020*

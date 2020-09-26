@@ -1,5 +1,5 @@
 name: DDD
-description: A new Flutter project.
+description: Study on how to architecture a clean, tested, domain centered app.
 publish_to: 'none'
 version: 1.0.0+1
 environment:

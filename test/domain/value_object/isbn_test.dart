@@ -32,5 +32,12 @@ void main() {
       // assert
       expect(isbn.value, str);
     });
+    test('should return ISBN when value is a valid isbn-13', () {
+      // arrange
+      const str = 'ISBN-13: 978-0-596-52068-7';
+      var isbn = ISBN.create(str).getOrElse(null);
+      // assert
+      expect(isbn.value, str);
+    });
   });
 }
